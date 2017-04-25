@@ -1,0 +1,178 @@
+
+
+
+#menu-container{
+    background-color: #004F6F;
+           
+}
+
+#menu-container li a{
+    color: white;
+    font-size: 24px;
+}
+#menu-container li a:hover{
+    color: whitesmoke;
+}
+.data-sticky .sticky .is-at-top .is-stuck{
+    margin-top: 0;
+}
+.data-sticky {
+  width: 100%;
+  z-index: 100;
+  
+}
+#submenu-container {
+  border: 0;
+}
+
+#submenu-container li a {
+  font-size: 14px;
+  color: white;
+  background-color: #004F6F;  
+}
+#scrollSoat{
+    margin-right: 0;
+}
+#row-scroll-soat{
+    margin-right: 0;
+}
+#button-sticky{
+    background: #F4A859;  
+    font-size: 3em;  
+    font-weight: bolder;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#scrollSoat-span-soat-enter{
+    font-size: 0.4em;
+}
+#menu-button-sticky{
+    top: 50%;
+    background: #F4A859;
+    width: 250px;
+}
+
+#mision-container img{
+
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+     
+}
+#mision{
+
+    background-image: url('../assets/img/mision.jpg');
+    border-radius: 10px;
+    margin-bottom: 30px;    
+    color: white;
+    text-align: justify;
+    height: 400px;
+    
+}
+#mision h2{
+    font-weight: bolder;
+}
+#space-mision{
+    background: white;
+    
+}
+#vision{
+
+    background-image: url('../assets/img/vision.jpg');
+    border-radius: 10px;
+    margin-bottom: 30px;    
+    color: white;
+    text-align: justify;
+}
+
+#vision h2{
+    font-weight: bolder;
+}
+
+#buy{    
+    background: #004F6F;
+    border-radius: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 10px;
+}
+#buy h1{
+    color: #F4A859;
+    font-size: 10em;
+}
+#buy h3{
+    color: white;
+    font-size: 2.4em;
+}
+#buy h2{
+    color: white;
+    font-size: 4.6em;
+    
+        
+}
+
+#soat-h1{
+    font-weight: bolder;
+}
+#button-buy{
+    background: #F4A859;
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+#soat{
+    color: #072F4A;
+    background: #F4A859;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#car-insurance{
+    color: #072F4A;
+}
+#car-insurance p{
+
+    font-size: 18px;
+    text-align: justify;
+}
+#title-insurance{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#partners-div{
+    background: #F4A859;
+    font-size: 3em;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 300px;
+    text-align: center;
+    font-weight: bolder;    
+}
+
+#footer{
+    background: #004F6F;    
+    color: white;
+}
+#follow-text{
+
+    font-size: 3em;
+    text-align: right;
+}
+#contact span{
+    text-align:center;
+    font-size: 1.2em;
+}
+#contact a{
+    text-align:center;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    
+}
+#footer-follow{
+    margin-bottom: 20px;
+}
