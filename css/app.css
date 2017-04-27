@@ -72,6 +72,7 @@
 }
 #mision h2{
     font-weight: bolder;
+    text-align: center;
 }
 #space-mision{
     background: white;
@@ -84,10 +85,12 @@
     margin-bottom: 30px;    
     color: white;
     text-align: justify;
+    height: 400px;
 }
 
 #vision h2{
     font-weight: bolder;
+    text-align: center;
 }
 
 #buy{    
@@ -95,6 +98,8 @@
     border-radius: 10px;
     font-family: 'Fjalla One', sans-serif;
     font-size: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 #buy h1{
     color: #F4A859;
@@ -104,11 +109,12 @@
     color: white;
     font-size: 2.4em;
 }
+#buy-h3{
+    margin-left: 15px;
+}
 #buy h2{
     color: white;
-    font-size: 4.6em;
-    
-        
+    font-size: 4.6em;        
 }
 
 #soat-h1{
@@ -120,6 +126,12 @@
     border-radius: 10px;
     font-size: 24px;
 }
+#image-delivery{
+     margin-left:50px;
+}
+#article-bien{
+    text-align: justify;
+}
 
 #soat{
     color: #072F4A;
@@ -127,8 +139,15 @@
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-weight: bolder;
 }
+#seguro-cumplimiento{
 
+    text-align: justify;
+}
+#blank{
+    height: 250px;
+}
 #car-insurance{
     color: #072F4A;
 }
@@ -140,6 +159,13 @@
 #title-insurance{
     font-size: 30px;
     margin-bottom: 20px;
+    font-weight: bold;
+}
+#title-insurance-bien{
+    font-size: 10px;
+}
+#title-insurance-bien span{
+    font-size: 2.8em;
     font-weight: bold;
 }
 #partners-div{
