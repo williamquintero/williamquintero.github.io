@@ -199,6 +199,12 @@
     text-decoration: none;
     
 }
+#contact-email a{
+    text-align:center;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
 #footer-follow{
     margin-bottom: 20px;
 }
