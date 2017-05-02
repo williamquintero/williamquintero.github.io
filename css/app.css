@@ -3,6 +3,8 @@
 
 #menu-container{
     background-color: #004F6F;
+    font-family: 'Roboto', sans-serif;
+    
            
 }
 
@@ -32,6 +34,7 @@
 }
 #scrollSoat{
     margin-right: 0;
+    font-family: 'Oswald', sans-serif;
 }
 #row-scroll-soat{
     margin-right: 0;
@@ -73,6 +76,7 @@
 #mision h2{
     font-weight: bolder;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 #space-mision{
     background: white;
@@ -91,6 +95,7 @@
 #vision h2{
     font-weight: bolder;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #buy{    
@@ -101,24 +106,13 @@
     margin-bottom: 30px;
     margin-top: 30px;
 }
-#buy h1{
-    color: #F4A859;
-    font-size: 10em;
-}
+
 #buy h3{
     color: white;
     font-size: 2.4em;
 }
 #buy-h3{
     margin-left: 15px;
-}
-#buy h2{
-    color: white;
-    font-size: 4.6em;        
-}
-
-#soat-h1{
-    font-weight: bolder;
 }
 #button-buy{
     background: #F4A859;
@@ -140,6 +134,18 @@
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: bolder;
+}
+#soat-h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    color: #F4A859;
+    font-size: 11em;
+    
+}
+#buy-first h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 5.8em;
+    color: white;
 }
 #seguro-cumplimiento{
 
