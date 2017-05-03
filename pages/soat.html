@@ -7,7 +7,7 @@
     <title>Seguro de cumplimiento</title>
     <link rel="stylesheet" href="../css/foundation.css">
     <link rel="stylesheet" href="../css/app.css">
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
   </head>
   <body>
     <!-- logo -->
@@ -68,62 +68,142 @@
     </section>
     <!-- /Menu -->    
     <div id="main-container">
-      <section> 
-        <div class="row">
-          <div id="soat" class="column small-12 medium-6 align-left">
-            <h3>EL SEGURO DE CUMPLIMIENTO</h3>
-          </div>                   
-        </div>
-        <div class="row" id="seguro-cumplimiento"> 
-            <div class="column small-12 medium-9">
-                <p>
-                El seguro de cumplimiento es un contrato de seguros celebrado entre una compañía de seguros y un tomador, 
-                comúnmente denominado afianzado, en el que la aseguradora garantiza el cumplimiento por parte del citado 
-                tomador de unas obligaciones contenidas en la ley (disposición legal) o en un contrato.</br></br>
-                En el evento de que el tomador no cumpla con dichas obligaciones, por causas que le sean imputables, 
-                la aseguradora deberá pagar al acreedor de la obligación, asegurado - beneficiario de la póliza, 
-                los perjuicios patrimoniales que se causaron por tal incumplimiento, sin exceder el valor asegurado 
-                en la póliza.</br></br>
-                Las pólizas de cumplimiento pueden ser:
-
-                <li>Pólizas de cumplimiento a favor de entidades estatales.</li> 
-                <li>Pólizas de cumplimiento a favor de entidades particulares.</li> 
-                <li>Disposiciones legales.</li>
-                <li>Cauciones judiciales.</li> 
-                </p>
+        <section>
+            <div id="asure-form" class="row">
+                <div class="column small-12 medium-6">    
+                    <img src="../assets/img/img-soat.jpg" alt="soat"/>
+                </div>
+                <div class="column">
+                    <form action="" method="POST">
+                        <div>
+                            <span>
+                                Digite sus datos a continuación y recibirá la cotización personalizada del SOAT de su vehículo:
+                            </span>
+                        </div>
+                        <div>
+                            <span>COTIZA TU SEGURO</span>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 column">
+                                <label for="middle-label" class="text-right middle">Nombres y Apellidos:</label>
+                            </div>
+                            <div class="small-8 column">
+                                <input type="text" id="middle-label" placeholder="Nombres y Apellidos">
+                            </div>
+                        </div>                        
+                        <div class="row">
+                            <div class="small-4 column">
+                                <label for="middle-label" class="text-right middle">Correo electronico:</label>
+                            </div>
+                            <div class="small-8 column">
+                                <input type="email" id="middle-label" placeholder="Correo electronico">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 column">
+                                <label for="middle-label" class="text-right middle">Telefono:</label>
+                            </div>
+                            <div class="small-8 column">
+                                <input type="text" id="middle-label" placeholder="Telefono de Contacto">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 column">
+                                <label for="middle-label" class="text-right middle">Direccion:</label>
+                            </div>
+                            <div class="small-8 column">
+                                <input type="text" id="middle-label" placeholder="Direccion de residencia">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 column">
+                                <label for="middle-label" class="text-right middle">Cedula del propietario:</label>
+                            </div>
+                            <div class="small-8 column">
+                                <input type="number" id="middle-label" placeholder="Cedula del propietario">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 column">
+                                <label for="middle-label" class="text-right middle">Placa del vehiculo:</label>
+                            </div>
+                            <div class="small-8 column">
+                                <input type="text" id="middle-label" placeholder="Placa del vehiculo">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 column">
+                                <label for="middle-label" class="text-right middle">Tipo de vehiculo:</label>
+                            </div>
+                            <div class="small-8 column">
+                                <select>
+                                    <option value="Automóvil">Automóvil</option>
+                                    <option value="Bus">Bus</option>
+                                    <option value="Buseta">Buseta</option>
+                                    <option value="Camioneta">Camioneta</option>
+                                    <option value="Camión">Camión</option>
+                                    <option value="Campero">Campero</option>
+                                    <option value="Cuatrimoto">Cuatrimoto</option>
+                                    <option value="Maquinaria agrícola">Maquinaria agrícola</option>
+                                    <option value="Maquinaria industrial">Maquinaria industrial</option>
+                                    <option value="Microbús">Microbús</option>
+                                    <option value="Motocarro">Motocarro</option>
+                                    <option value="Motocicleta">Motocicleta</option>
+                                    <option value="Motociclo">Motociclo</option>
+                                    <option value="Tracto camión">Tracto camión</option>                                   
+                                    <option value="Volquetas">Volquetas</option> 
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 column">
+                                <label for="middle-label" class="text-right middle">Tipo de servicio:</label>
+                            </div>
+                            <div class="small-8 column">
+                                <select>
+                                    <option value="Particular">Particular</option>
+                                    <option value="Público urbano">Público urbano</option>
+                                    <option value="Público intermunicipal">Público intermunicipal</option>
+                                    <option value="Oficiales">Oficiales</option>
+                                    <option value="Diplomáticos o especiales">Diplomáticos o especiales</option>
+                                    <option value="Enseñanza automotriz">Enseñanza automotriz</option>
+                                    <option value="Ambulancia">Ambulancia</option>
+                                    <option value="Bomberos">Bomberos</option>
+                                    <option value="Fuerzas militares especiales">Fuerzas militares especiales</option>
+                                    <option value="Carro fúnebre">Carro fúnebre</option>
+                                    <option value="Transporte de valores">Transporte de valores</option>
+                                    <option value="Trabajo agroindustrial">Trabajo agroindustrial</option>                                    
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 column">
+                                <label for="middle-label" class="text-right middle">Numero de Pasajeros:</label>
+                            </div>
+                            <div class="small-8 column">
+                                <input type="number" id="middle-label" placeholder="Numero de Pasajeros">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 column">
+                                <label for="middle-label" class="text-right middle">Modelo:</label>
+                            </div>
+                            <div class="small-8 column">
+                                <input type="number" id="middle-label" placeholder="Modelo">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 column">
+                                <label for="middle-label" class="text-right middle">Cilindraje:</label>
+                            </div>
+                            <div class="small-8 column">
+                                <input type="number" id="middle-label" placeholder="Cilindraje (C.C)">
+                            </div>
+                        </div>                        
+                    </form>
+                </div>
             </div>
-            <div class="column small-none medium-3">
-                <img src="../assets/img/lupa-.jpg" alt="lupa">
-            </div>
-          </div> 
-      </section>
-      <section>
-          <div id="blank" class="row">
-
-          </div>
-      </section>
-      <!-- compra-->
-      <section id="buy-container">
-        <div id="buy" class="row">
-          <div class="column medium-3">
-            <h2>Compra tu</h2>
-            <h3>Facil, rapido y ahora</h3>            
-          </div>
-          <div class="column medium-3">
-            <h1 id="soat-h1">SOAT</h1>
-          </div>
-          <div class="column medium-3 align-self-middle align-self-right">
-            <img id= "image-delivery" src="../assets/img/delivery.png"/> 
-          </div>
-          <div class="column medium-3 align-self-middle">
-            <a id="button-buy"href="about.html" class="button large">Ingresa aqui</a>            
-          </div>
-          <div id="buy-h3" class="row">
-            <h3> paga contraentrega en la puerta de tu hogar</h3>
-          </div>               
-        </div>        
-      </section>
-      <!-- /compra-->    
+        </section>    
     </div>        
      <section id = "footer">
       <div id="footer-follow" class="row align-middle small-12" >
