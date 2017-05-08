@@ -3,8 +3,7 @@
 
 #menu-container{
     background-color: #004F6F;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;   
            
 }
 
@@ -182,7 +181,8 @@
     margin-bottom: 20px;
     height: 300px;
     text-align: center;
-    font-weight: bolder;    
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;    
 }
 
 #footer{
@@ -219,8 +219,19 @@
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 #asure-img{
     margin-top: 20px;
     border-radius: 10px;
+}
+#main-container-soat{
+    color: #004F6F;
+}
+#main-container-soat label{
+    color: #004F6F;
+}
+#cotiza-span{
+    color: white;
+    
 }
