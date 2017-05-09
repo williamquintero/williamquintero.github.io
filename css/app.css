@@ -59,6 +59,7 @@
     top: 50%;
     background: #F4A859;
     width: 150px;
+    border-radius: 5px 0 0 5px;
 }
 
 #mision-container img{
