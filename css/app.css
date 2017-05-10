@@ -141,6 +141,8 @@
 }
 #article-bien{
     text-align: justify;
+    color: #072F4A;
+    font-family: 'Roboto', sans-serif;  
 }
 
 #soat{
@@ -166,7 +168,14 @@
 #seguro-cumplimiento{
 
     text-align: justify;
+    
 }
+#seguro-cumplimiento p,li{
+
+    color: #072F4A;
+    font-family: 'Roboto', sans-serif; 
+}
+
 #car-insurance{
     color: #072F4A;
 }
@@ -186,6 +195,9 @@
 #title-insurance-bien span{
     font-size: 2.8em;
     font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: #072F4A;
+
 }
 #partners-top{
     background: #F4A859;
