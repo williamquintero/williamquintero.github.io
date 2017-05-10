@@ -119,6 +119,7 @@
     font-size: 10px;
     margin-bottom: 30px;
     margin-top: 30px;
+    text-align: center;
 }
 
 #buy h3{
@@ -127,6 +128,7 @@
 }
 #buy-h3{
     margin-left: 15px;
+    font-size: 1.3em;
 }
 #button-buy{
     background: #F4A859;
@@ -158,7 +160,7 @@
 }
 #buy-first h2{
     font-family: 'Oswald', sans-serif;
-    font-size: 5.8em;
+    font-size: 8em;
     color: white;
 }
 #seguro-cumplimiento{
@@ -211,8 +213,7 @@
 
 #footer{
     background: #004F6F;    
-    color: white;
-    height: 250px;
+    color: white;    
     margin-top: 20px;
 }
 #follow-text{
@@ -223,6 +224,7 @@
 #contact span{
     text-align:center;
     font-size: 1.2em;
+    padding-top: 10px;
 }
 #contact a{
     text-align:center;
@@ -236,9 +238,11 @@
     font-size: 1.5em;
     color: white;
     text-decoration: none;
+    padding-bottom: 20px;
 }
 #footer-follow{
     margin-bottom: 20px;
+    padding-top: 10px;
 }
 #asure-form{
     background: #F4A859;
@@ -260,4 +264,13 @@
 #cotiza-span{
     color: white;
     
+}
+#offCanvas,
+#offCanvas li a{
+    background: #004F6F;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+#delivery-button button{
+    background-color: #004F6F;
 }

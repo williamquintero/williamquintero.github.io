@@ -10,204 +10,231 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
   </head>
   <body>
-    <!-- logo -->
-    <section id="logo-container">
-        <div class="row align-middle small-12" >
-            <div class="column">    
-                <figure>
-                    <img src = "./assets/img/logo.jpg" alt="logotipo"/>
-                </figure>
-            </div>
-            <div class="column shrink small-1 align-right">
-                <a href="https://www.facebook.com/" target="_blank"><img src = "./assets/img/facebook.png" width="50" height="50"/></a>
-            </div>
-            <div class="column shrink small-1 align-right">
-                <a href="https://twitter.com/?lang=es" target="_blank"><img src = "./assets/img/twitter.png" width="50" height="50"/></a>
-            </div>
-            <div class="column shrink small-1 align-right">
-                <a href="https://www.instagram.com/" target="_blank"><img src = "./assets/img/instagram.png" width="50" height="50"/></a>
-            </div>
-        </div>       
-    </section>
-    <!-- /logo -->
-    <!-- Cover-->
-    <section id="cover">
-        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-            <ul class="orbit-container">
-                <li class="is-active orbit-slide">
-                    <img class="orbit-image" src="./assets/img/home-pic/1.jpg" alt="home-picture">                
-                </li>
-                <li class="is-active orbit-slide">
-                    <img class="orbit-image" src="./assets/img/home-pic/2.jpg" alt="home-picture">                
-                </li><li class="is-active orbit-slide">
-                    <img class="orbit-image" src="./assets/img/home-pic/3.jpg" alt="home-picture">                
-                </li><li class="is-active orbit-slide">
-                    <img class="orbit-image" src="./assets/img/home-pic/4.jpg" alt="home-picture">                
-                </li>
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div id="offCanvas" class="off-canvas position-left" data-off-canvas>
+          <nav data-magellan>
+            <ul class="vertical menu" data-drilldown>
+              <li><a href="#mision-container">Nosotros</a></li>
+              <li><a href="#partners">Partners</a></li>
+              <li>
+                  <a href="#">Seguros</a>
+                  <ul class="vertical menu">                          
+                    <li><a href="./pages/seguro-cumplimiento.html">Seguro de cumplimiento</a></li>
+                    <li><a href="./pages/seguro-de-bienes.html">Seguro de bienes comunes</a></li>
+                    <li><a href="./pages/seguro-de-hogar.html">Seguro para el hogar</a></li>
+                    <li><a href="./pages/seguro-de-pymes.html">Seguro para PYMES</a></li>
+                    <li><a href="./pages/seguro-responsabilidad.html">Seguro de responsabilidad civil</a></li>
+                  </ul>                         
+              </li>
+              <li><a href="./pages/soat.html">SOAT</a></li>
+              <li><a href="./pages/seguro-de-autos.html">Seguro Para Autos</a></li>
+              <li><a href="#footer">Contactenos</a></li>
             </ul>
+          </nav>
         </div>
-    </section>
-    <!-- /Cover-->
-    <!-- Menu -->
-    <section id="scrollSticky" data-sticky-container>
-        <div class="data-sticky" data-sticky data-margin-top="0" data-sticky-on="small"
-            data-top-anchor="scrollSticky">
-            <nav id="menu-container" data-magellan>
-                <ul class="menu dropdown align-spaced" data-dropdown-menu>
-                    <li><a href="#mision-container">Nosotros</a></li>
-                    <li><a href="#partners">Partners</a></li>
-                    <li>
-                        <a href="#">Seguros</a>
-                        <ul id="submenu-container" class="menu">                          
-                          <li><a href="./pages/seguro-cumplimiento.html">Seguro de cumplimiento</a></li>
-                          <li><a href="./pages/seguro-de-bienes.html">Seguro de bienes comunes</a></li>
-                          <li><a href="./pages/seguro-de-hogar.html">Seguro para el hogar</a></li>
-                          <li><a href="./pages/seguro-de-pymes.html">Seguro para PYMES</a></li>
-                          <li><a href="./pages/seguro-responsabilidad.html">Seguro de responsabilidad civil</a></li>
-                        </ul>                         
-                    </li>
-                    <li><a href="./pages/soat.html">SOAT</a></li>
-                    <li><a href="./pages/seguro-de-autos.html">Seguro Para Autos</a></li>
-                    <li><a href="#footer">Contactenos</a></li>
-                </ul>
-            </nav>
-        </div>                       
-    </section>
-    <!-- /Menu -->
-    <section id="scrollSoat">
-      <div id="row-scroll-soat" class="row align-right">
-        <div class="columns hidden-for-small-only medium-3 right" data-sticky-on="medium" data-sticky-container>
-          <div id="button-soat-sticky" class="sticky" data-sticky data-margin-top="10" data-top-anchor="scrollSoat">
-            <nav id="menu-button-sticky">
-              <a id="button-sticky" href="./pages/soat.html" class="button large">
-                <span id="scrollSoat-span-soat">SOAT</span>
-                <span id="scrollSoat-span-soat-enter">Ingresa aqui</span>
-              </a>  
-            </nav>             
-          </div>
-        </div>
-      </div>            
-    </section>
-    <div id="main-container">
-      <!-- Mision Vision-->
-      <section id="mision-container"> 
-        <div class="row align-spaced">        
-              <div id="mision" class="column small-12 medium-12">
-                  <!--img src = "./assets/img/mision.jpg" alt="mision"/-->
-                  <h2>MISION</h2>
-                    <p>A traves de nuestro trabajo lograr para nuestros clientes la solución integral y efectiva 
-                    a sus necesidades en materia de seguros , mediante una labor responsable , honesta , dinámica 
-                    y compartida con nuestros aliados las aseguradoras del mercado</p>                 
+        <div class="off-canvas-content" data-off-canvas-content>
+          <!-- logo -->
+          <section id="logo-container">
+              <div class="row align-middle small-12" >
+                  <div class="column">    
+                      <figure>
+                          <img src = "./assets/img/logo.jpg" alt="logotipo"/>
+                      </figure>
+                  </div>
+                  <div class="column shrink small-1 align-right">
+                      <a href="https://www.facebook.com/" target="_blank"><img src = "./assets/img/facebook.png" width="50" height="50"/></a>
+                  </div>
+                  <div class="column shrink small-1 align-right">
+                      <a href="https://twitter.com/?lang=es" target="_blank"><img src = "./assets/img/twitter.png" width="50" height="50"/></a>
+                  </div>
+                  <div class="column shrink small-1 align-right">
+                      <a href="https://www.instagram.com/" target="_blank"><img src = "./assets/img/instagram.png" width="50" height="50"/></a>
+                  </div>
+              </div>       
+          </section>
+          <!-- /logo -->
+          <!-- Cover-->
+          <section id="cover">
+              <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                  <ul class="orbit-container">
+                      <li class="is-active orbit-slide">
+                          <img class="orbit-image" src="./assets/img/home-pic/1.jpg" alt="home-picture">                
+                      </li>
+                      <li class="is-active orbit-slide">
+                          <img class="orbit-image" src="./assets/img/home-pic/2.jpg" alt="home-picture">                
+                      </li><li class="is-active orbit-slide">
+                          <img class="orbit-image" src="./assets/img/home-pic/3.jpg" alt="home-picture">                
+                      </li><li class="is-active orbit-slide">
+                          <img class="orbit-image" src="./assets/img/home-pic/4.jpg" alt="home-picture">                
+                      </li>
+                  </ul>
               </div>
-        </div>
-        <div class="row">
-              <div id="vision" class="column small-12 medium-12">
-                  <!--img src = "./assets/img/vision.jpg" alt="vision"/-->
-                  <h2>VISION</h2>
-                    <p>Convertirnos en la opción </p>
+          </section>
+          <!-- /Cover-->
+          <!-- Menu -->
+          <section id="scrollSticky" data-sticky-container>
+              <div class="data-sticky" data-sticky data-margin-top="0" data-sticky-on="small"
+                  data-top-anchor="scrollSticky" id="sticky">
+                  <nav id="menu-container" data-magellan>
+                      <ul class="menu align-spaced show-for-small-only">
+                        <li><a href="#" data-toggle="offCanvas">Menu</a></li>    
+                      </ul>
+                      <ul class="menu dropdown align-spaced show-for-medium" data-dropdown-menu>
+                          <li><a href="#mision-container">Nosotros</a></li>
+                          <li><a href="#partners">Partners</a></li>
+                          <li>
+                              <a href="#">Seguros</a>
+                              <ul id="submenu-container" class="menu">                          
+                                <li><a href="./pages/seguro-cumplimiento.html">Seguro de cumplimiento</a></li>
+                                <li><a href="./pages/seguro-de-bienes.html">Seguro de bienes comunes</a></li>
+                                <li><a href="./pages/seguro-de-hogar.html">Seguro para el hogar</a></li>
+                                <li><a href="./pages/seguro-de-pymes.html">Seguro para PYMES</a></li>
+                                <li><a href="./pages/seguro-responsabilidad.html">Seguro de responsabilidad civil</a></li>
+                              </ul>                         
+                          </li>
+                          <li><a href="./pages/soat.html">SOAT</a></li>
+                          <li><a href="./pages/seguro-de-autos.html">Seguro Para Autos</a></li>
+                          <li><a href="#footer">Contactenos</a></li>
+                      </ul>
+                  </nav>
+              </div>                       
+          </section>
+          <!-- /Menu -->
+          <section id="scrollSoat">
+            <div id="row-scroll-soat" class="row align-right show-for-large">
+              <div class="columns hidden-for-small-only medium-3 right" data-sticky-on="medium" data-sticky-container>
+                <div id="button-soat-sticky" class="sticky" data-sticky data-margin-top="10" data-top-anchor="scrollSoat">
+                  <nav id="menu-button-sticky">
+                    <a id="button-sticky" href="./pages/soat.html" class="button large">
+                      <span id="scrollSoat-span-soat">SOAT</span>
+                      <span id="scrollSoat-span-soat-enter">Ingresa aqui</span>
+                    </a>  
+                  </nav>             
+                </div>
+              </div>
+            </div>            
+          </section>
+          <div id="main-container">
+            <!-- Mision Vision-->
+            <section id="mision-container"> 
+              <div class="row align-spaced">        
+                    <div id="mision" class="column small-12 medium-12">
+                        <!--img src = "./assets/img/mision.jpg" alt="mision"/-->
+                        <h2>MISION</h2>
+                          <p>A traves de nuestro trabajo lograr para nuestros clientes la solución integral y efectiva 
+                          a sus necesidades en materia de seguros , mediante una labor responsable , honesta , dinámica 
+                          y compartida con nuestros aliados las aseguradoras del mercado</p>                 
+                    </div>
+              </div>
+              <div class="row">
+                    <div id="vision" class="column small-12 medium-12">
+                        <!--img src = "./assets/img/vision.jpg" alt="vision"/-->
+                        <h2>VISION</h2>
+                          <p>Convertirnos en la opción </p>
+                    </div>        
+              </div>
+            </section>    
+            <!-- /Mision Vision-->
+            <!-- compra-->
+            <section id="buy-container">
+              <div id="buy" class="row align-middle">
+                <div id="buy-first"class="column small-12 large-4">
+                  <h2>Compra tu</h2>                              
+                </div>
+                <div class="column small-12 large-4">
+                  <h1 id="soat-h1">SOAT</h1>
+                </div>                
+                <div class="column small-12 large-4">
+                  <a id="button-buy"href="./pages/soat.html" class="button large">Ingresa aqui</a>            
+                </div>
+                <div id="buy-h3" class="row show-for-large">
+                  <h3> Facil, rapido y ahora paga contraentrega en la puerta de tu hogar</h3>
+                </div>               
               </div>        
-        </div>
-      </section>    
-      <!-- /Mision Vision-->
-       <!-- compra-->
-      <section id="buy-container">
-        <div id="buy" class="row">
-          <div id="buy-first"class="column medium-3">
-            <h2>Compra tu</h2>
-            <h3>Facil, rapido y ahora</h3>            
+            </section>
+            <!-- /compra-->             
+            <section>
+                <div id="renovar" class="row show-for-medium">              
+                      <img src="./assets/img/soat-2.jpg" width="100%"/>               
+                </div>
+            </section>
           </div>
-          <div class="column medium-3 align-self-center">
-            <h1 id="soat-h1">SOAT</h1>
-          </div>
-          <div class="column medium-3 align-self-middle align-self-right">
-            <img id= "image-delivery" src="./assets/img/delivery.png"/> 
-          </div>
-          <div class="column medium-3 align-self-middle">
-            <a id="button-buy"href="./pages/soat.html" class="button large">Ingresa aqui</a>            
-          </div>
-          <div id="buy-h3" class="row">
-            <h3> paga contraentrega en la puerta de tu hogar</h3>
-          </div>               
-        </div>        
-      </section>
-      <!-- /compra-->             
-      <section>
-          <div id="renovar" class="row">              
-                <img src="./assets/img/soat-2.jpg" width="100%"/>               
-          </div>
-      </section>
-    </div>
-    <section id="partners">
-      <div id="partners-top" class="row align-center">
-        <span>PARTNERS</span>
-      </div>
-      <div id="partners-middle" class="row align-spaced">            
-          <div class="column shrink small-4">  
-            <img src="./assets/img/logos-asures/allianz_logo.png"/>
-          </div>
-          <div class="column shrink small-4">  
-            <img src="./assets/img/logos-asures/SegurosDelEstado.png"/>
-          </div> 
-          <div class="column shrink small-4">  
-            <img src="./assets/img/logos-asures/suramericana.png"/>
-          </div>       
-      </div>
-      <div id="partners-middle" class="row align-spaced">
-        <div class="column shrink small-4">  
-            <img src="./assets/img/logos-asures/equidad.png"/>
-          </div>
-          <div class="column shrink small-4">  
-            <img src="./assets/img/logos-asures/la_previsora.png"/>
-          </div> 
-          <div class="column shrink small-4">  
-            <img src="./assets/img/logos-asures/liberty.png"/>
-          </div>
-      </div> 
-      <div id="partners-bottom" class="row align-spaced">
-        <div class="column shrink small-4">  
-            <img src="./assets/img/logos-asures/Positiva.png"/>
-          </div>
-          <div class="column shrink small-4">  
-            <img src="./assets/img/logos-asures/seguros-bolivar.png"/>
-          </div> 
-          <div class="column shrink small-4">  
-            <img src="./assets/img/logos-asures/confianza.png"/>
-          </div>  
-      </div>                    
-    </section>
-    <section>
-      <div class="row">
-        <div class="column small-12">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.599371588323!2d-74.05446746632238!3d4.665299292026447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5f76e1f8c7%3A0xc7b66a2406a4c190!2sCra.+14+%2379-78%2C+Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1494283504346" width="100%" height="450" frameborder="0" style="border:0;border-radius:5px;" allowfullscreen></iframe>
-        </div>
-      </div>      
-    </section>    
-    <section id = "footer">
-      <div id="footer-follow" class="row align-middle small-12" >
-        <div id="follow-text" class="column small-6 align-right">
-          <span>Siguenos en:</span>          
-        </div>       
-        <div class="column shrink small-1">
-                <a href="https://www.facebook.com/" target="_blank"><img src = "./assets/img/facebook.png" width="50" height="50"/></a>
-        </div>
-            <div class="column shrink small-1">
-                <a href="https://twitter.com/?lang=es" target="_blank"><img src = "./assets/img/twitter.png" width="50" height="50"/></a>
+          <section id="partners">
+            <div id="partners-top" class="row align-center">
+              <span>PARTNERS</span>
             </div>
-            <div class="column shrink small-1">
-                <a href="https://www.instagram.com/" target="_blank"><img src = "./assets/img/instagram.png" width="50" height="50"/></a>
-            </div>        
+            <div id="partners-middle" class="row align-spaced">            
+                <div class="column shrink small-4">  
+                  <img src="./assets/img/logos-asures/allianz_logo.png"/>
+                </div>
+                <div class="column shrink small-4">  
+                  <img src="./assets/img/logos-asures/SegurosDelEstado.png"/>
+                </div> 
+                <div class="column shrink small-4">  
+                  <img src="./assets/img/logos-asures/suramericana.png"/>
+                </div>       
+            </div>
+            <div id="partners-middle" class="row align-spaced">
+              <div class="column shrink small-4">  
+                  <img src="./assets/img/logos-asures/equidad.png"/>
+                </div>
+                <div class="column shrink small-4">  
+                  <img src="./assets/img/logos-asures/la_previsora.png"/>
+                </div> 
+                <div class="column shrink small-4">  
+                  <img src="./assets/img/logos-asures/liberty.png"/>
+                </div>
+            </div> 
+            <div id="partners-bottom" class="row align-spaced">
+              <div class="column shrink small-4">  
+                  <img src="./assets/img/logos-asures/Positiva.png"/>
+                </div>
+                <div class="column shrink small-4">  
+                  <img src="./assets/img/logos-asures/seguros-bolivar.png"/>
+                </div> 
+                <div class="column shrink small-4">  
+                  <img src="./assets/img/logos-asures/confianza.png"/>
+                </div>  
+            </div>                    
+          </section>
+          <section>
+            <div class="row">
+              <div class="column small-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.599371588323!2d-74.05446746632238!3d4.665299292026447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5f76e1f8c7%3A0xc7b66a2406a4c190!2sCra.+14+%2379-78%2C+Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1494283504346" width="100%" height="450" frameborder="0" style="border:0;border-radius:5px;" allowfullscreen></iframe>
+              </div>
+            </div>      
+          </section>
+          <!-- footer -->    
+          <section id = "footer">
+            <div id="footer-follow" class="row align-middle small-12" >
+              <div id="follow-text" class="column small-12 medium-6 align-right show-for-medium">
+                <span>Siguenos en:</span>          
+              </div>       
+              <div class="column shrink small-4 medium-1 show-for-medium">
+                      <a href="https://www.facebook.com/" target="_blank"><img src = "./assets/img/facebook.png" width="50" height="50"/></a>
+              </div>
+                  <div class="column shrink small-4 medium-1 show-for-medium">
+                      <a href="https://twitter.com/?lang=es" target="_blank"><img src = "./assets/img/twitter.png" width="50" height="50"/></a>
+                  </div>
+                  <div class="column shrink small-4 medium-1 show-for-medium">
+                      <a href="https://www.instagram.com/" target="_blank"><img src = "./assets/img/instagram.png" width="50" height="50"/></a>
+                  </div>        
+            </div>
+            <div id="contact"class="row align-middle align-center small-12 show-for-medium" >
+                  <span>Para resolver dudas, comentarios y sugerencias, Comuníquese a nuestros numeros 6363778 / 7033604. </br>
+                        Si quiere mayor información puede acércarce 
+                      a nuestras oficinas en Bogotá. Carrera 14 #79-78 oficina 404.</span>
+                  <a href="mailto:wquinteroseguros@gmail.com">E-MAIL: wquinteroseguros@gmail.com </a>                        
+            </div>
+            <div id="contact-email" class="row align-middle align-center small-12">
+              <a href="mailto:wquinteroseguros@yahoo.es"> wquinteroseguros@yahoo.es</a>
+            </div>      
+          </section>
+          <!-- footer -->
+        </div>
       </div>
-      <div id="contact"class="row align-middle align-center small-12" >
-            <span>Para resolver dudas, comentarios y sugerencias, Comuníquese a nuestros numeros 6363778 / 7033604. </br>
-                  Si quiere mayor información puede acércarce 
-                a nuestras oficinas en Bogotá. Carrera 14 #79-78 oficina 404.</span>
-            <a href="mailto:wquinteroseguros@gmail.com">E-MAIL: wquinteroseguros@gmail.com </a>                        
-      </div>
-      <div id="contact-email" class="row align-middle align-center small-12">
-        <a href="mailto:wquinteroseguros@yahoo.es"> wquinteroseguros@yahoo.es</a>
-      </div>      
-    </section>
-
+    </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
