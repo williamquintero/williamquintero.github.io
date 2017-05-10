@@ -263,7 +263,9 @@
 }
 #cotiza-span{
     color: white;
-    
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;    
 }
 #offCanvas,
 #offCanvas li a{
