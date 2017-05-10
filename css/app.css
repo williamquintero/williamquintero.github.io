@@ -217,6 +217,9 @@
 
     font-size: 3em;
     text-align: right;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
 }
 #contact span{
     text-align:center;
