@@ -138,11 +138,6 @@
 #image-delivery{
      margin-left:50px;
 }
-#article-bien{
-    text-align: justify;
-    color: #072F4A;
-    font-family: 'Roboto', sans-serif;  
-}
 
 #soat{
     color: #072F4A;
@@ -168,6 +163,11 @@
 
     text-align: justify;
     
+}
+#article-bien{
+    text-align: justify;
+    color: #072F4A;
+    font-family: 'Roboto', sans-serif;  
 }
 #seguro-cumplimiento p,li{
 
