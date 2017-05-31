@@ -47,13 +47,13 @@
     padding-bottom: 0;
     padding-top: 10px;
     padding-right: 0;
-    padding-left: 10px;
+    padding-left: 30px;
     border: 0;
-    height: 120px;
+    height: 90px;
 
 }
 #scrollSoat-span-soat-enter{
-    font-size: 0.4em;
+    font-size: 0.4em;    
 }
 #menu-button-sticky{
     top: 50%;
@@ -217,6 +217,7 @@
     border-radius: 0 0 10px 10px;
     margin-bottom: 20px;  
     padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 #footer{
